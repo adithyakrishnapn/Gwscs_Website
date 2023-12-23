@@ -484,9 +484,6 @@ section {
     
   }
 
-
-
-
   .mobile-nav-hide {
     color: rgba(0, 0, 0, 0.9);
     font-size: 32px;
@@ -2278,4 +2275,10 @@ section {
     height: auto;
   }
 }
-  
+commondetails
+
+.commondetails{
+  width: 100%;
+  text-align: center;
+  padding: 70px;
+}

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener("load",function(){
     setTimeout(function(){
       loader.style.display = "none";
-    },3000)
+    },2000)
   })
 
   // about preloader
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener("load",function(){
     setTimeout(function(){
       loader1.style.display = "none";
-    },2000)
+    },1000)
   })
 
   /**
