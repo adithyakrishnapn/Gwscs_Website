@@ -462,7 +462,8 @@ section {
   }
 
   .mobile-nav-show {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(140, 255, 117, 0.9);
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px 0px;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
