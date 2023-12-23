@@ -468,7 +468,24 @@ section {
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
+    animation: navshow 1s alternate-reverse  linear  infinite;
+    border-radius: 2cm;
+    padding: 1px;
   }
+
+  @keyframes navshow {
+    from{
+      box-shadow: rgb(255, 255, 255) 0px 0px 20px 5px;
+
+    }
+    to{
+      box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+    }
+    
+  }
+
+
+
 
   .mobile-nav-hide {
     color: rgba(0, 0, 0, 0.9);
